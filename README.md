@@ -10,8 +10,8 @@
 <a href="https://github.com/Hgnim/TimedPower">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=TimedPower&theme=algolia"/>
 </a>
-<a href="https://github.com/Hgnim/MemoryPath">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=MemoryPath&theme=algolia" />
+<a href="https://github.com/Hgnim/KeyInputMacro">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
 </a>
  <p/>
    
