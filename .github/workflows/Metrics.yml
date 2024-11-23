@@ -34,9 +34,7 @@ jobs:
           plugin_code: yes
           plugin_code_days: 30
           plugin_code_lines: 40
-          plugin_code_load: 400
-          plugin_code_visibility: public
-          plugin_code_languages: c#,c++,html,batchfile
+          plugin_code_languages: C#,C++,html,batchfile
           plugin_habits: yes
           plugin_habits_charts_type: graph
           plugin_habits_days: 14
