@@ -15,6 +15,9 @@
 </a>
  <p/>
    
+# 统计
+![Metrics](/github-metrics.svg)
+
 # 状态
 <p align="center">
 <a href="#">
