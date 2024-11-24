@@ -14,7 +14,9 @@
  <p/>
    
 #
-![Metrics](/github-metrics.svg)
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics"/>
+</picture>
 <p align="center">
 <a href="#">
 <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=Hgnim&grid=false&days=90&theme=react-dark&hide_border=true&custom_title=Hgnim的提交数图表"/>
