@@ -15,7 +15,7 @@
    
 #
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics"/>
+  <img src="/github-metrics-main.svg" alt="Metrics-main"/>
 </picture>
 <p align="center">
 <a href="#">
@@ -59,6 +59,9 @@
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/misc/tools.svg" style="vertical-align:top margin:6px 4px">  
 </a> 
 <p/>
+<picture>
+  <img src="/github-metrics-skyline.svg" alt="Metrics-skyline"/>
+</picture>
 
 # 
 <p align="center">

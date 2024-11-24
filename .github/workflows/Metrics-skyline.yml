@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics-skyline.svg
           config_display: large
-          filename: metrics.plugin.skyline.svg
           token: NOT_NEEDED
           base: ""
           plugin_skyline: yes
