@@ -1,5 +1,5 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics-main
+name: Metrics
 on:
   # Schedule updates (each hour)
   schedule: [{cron: "0 16 * * *"}]
@@ -86,3 +86,25 @@ jobs:
           plugin_people_types: contributors, stargazers, watchers, sponsors, followers
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut
+  github-metrics-skyline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-skyline.svg
+          config_display: large
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2024
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
