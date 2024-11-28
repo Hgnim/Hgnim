@@ -37,23 +37,23 @@ jobs:
           plugin_code_lines: 40
           plugin_code_languages: C#,C++,html,batchfile
           plugin_habits: yes
+          plugin_habits_charts: yes
           plugin_habits_charts_type: graph
           plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_from: 600
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
-          plugin_habits_charts: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_colors: xml:#00427c, json:#5d5500, markdown:#df8d00
+          plugin_languages_colors: XML:#00427c, JSON:#5d5500, Markdown:#df8d00
           plugin_languages_ignored: css,svg
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_categories: markup, programming,data,prose
-          plugin_languages_limit: 14
+          plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming,data,prose
           plugin_languages_recent_days: 28
@@ -89,7 +89,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 140
           plugin_topics_mode: icons
-          plugin_topics_sort: stars
+          plugin_topics_sort: activity
           plugin_traffic: yes
           plugin_contributors: yes
           plugin_contributors_contributions: yes
