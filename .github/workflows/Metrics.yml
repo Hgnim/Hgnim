@@ -49,7 +49,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_skipped: Hgnim/hgnim_computer
           plugin_languages_aliases: c#:C++++
-          plugin_languages_colors: C++++:green,XML:#00427c,JSON:#5d5500,Markdown:#df8d00,C:#242424
+          plugin_languages_colors: ["C++++:green","XML:#00427c","JSON:#5d5500","Markdown:#df8d00","C:#242424"]
           plugin_languages_ignored: svg,css
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 60
