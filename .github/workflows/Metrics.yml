@@ -41,8 +41,9 @@ jobs:
           plugin_habits_charts_type: graph
           plugin_habits_days: 30
           plugin_habits_facts: yes
-          plugin_habits_from: 600
-          plugin_habits_languages_limit: 8
+          plugin_habits_from: 900
+          plugin_habits_trim: yes
+          plugin_habits_languages_limit: 0
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -50,14 +51,12 @@ jobs:
           plugin_languages_skipped: Hgnim/hgnim_computer
           plugin_languages_ignored: svg,css
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 1000
+          plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 0
           plugin_languages_categories: markup, programming,data,prose
           plugin_languages_limit: 0
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming,data,prose
-          plugin_languages_recent_days: 21
-          plugin_languages_recent_load: 100
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           plugin_languages_details: lines,bytes-size,percentage
