@@ -31,7 +31,7 @@
     
 <p align="center">
   <a href="#">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hgnim&locale=cn&layout=pie&theme=transparent&hide_border=true&hide=scss,css&langs_count=6"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hgnim&locale=cn&layout=pie&theme=transparent&hide_border=true&langs_count=10"/>
 <a/>
 <a href="#">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=Hgnim&locale=cn&theme=transparent&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github"/>
