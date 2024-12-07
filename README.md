@@ -11,6 +11,12 @@
 <a href="https://github.com/Hgnim/KeyInputMacro">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
 </a>
+<a href="https://github.com/Hgnim/FiveInARowWeb">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=FiveInARowWeb&theme=algolia" />
+</a>
+<a href="https://github.com/Hgnim/FileMoveTool">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
+</a>
  <p/>
    
 #

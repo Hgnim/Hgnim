@@ -51,8 +51,8 @@ jobs:
           plugin_languages_skipped: Hgnim/hgnim_computer
           plugin_languages_ignored: svg
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_analysis_timeout_repositories: 0
+          #plugin_languages_analysis_timeout: 60
+          #plugin_languages_analysis_timeout_repositories: 0
           plugin_languages_categories: markup, programming,data,prose
           plugin_languages_limit: 0
           plugin_languages_other: yes
