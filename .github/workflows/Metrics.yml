@@ -48,7 +48,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_skipped: Hgnim/hgnim_computer
+          plugin_languages_skipped: Hgnim/hgnim_computer, Hgnim/MJYY_Web
           plugin_languages_ignored: svg
           plugin_languages_indepth: yes
           #plugin_languages_analysis_timeout: 60
