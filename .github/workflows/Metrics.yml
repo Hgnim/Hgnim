@@ -32,10 +32,6 @@ jobs:
           base_indepth: yes
           config_display: large
           config_timezone: Asia/Shanghai
-          plugin_code: yes
-          plugin_code_days: 30
-          plugin_code_lines: 40
-          plugin_code_languages: C#,C++,html,batchfile
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: graph
@@ -47,27 +43,6 @@ jobs:
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_skipped: Hgnim/hgnim_computer, Hgnim/MJYY_Web
-          plugin_languages_ignored: svg
-          plugin_languages_indepth: yes
-          #plugin_languages_analysis_timeout: 60
-          #plugin_languages_analysis_timeout_repositories: 0
-          plugin_languages_categories: markup, programming,data,prose
-          plugin_languages_limit: 0
-          plugin_languages_other: yes
-          plugin_languages_recent_categories: markup, programming,data,prose
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_threshold: 0%
-          plugin_languages_details: lines,bytes-size,percentage
-          #plugin_languages_aliases: c#:C++++
-          plugin_languages_colors: rainbow #"xml:#00427c, json:#5d5500, markdown:#df8d00, c:#242424" # C++++:#178600
-          plugin_activity: yes
-          plugin_activity_visibility: public
-          plugin_activity_limit: 6
-          plugin_activity_load: 400
-          plugin_activity_timestamps: yes
-          plugin_activity_days: 30
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 8
@@ -100,25 +75,3 @@ jobs:
           plugin_people_types: contributors, stargazers, watchers, sponsors, followers
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut
-  github-metrics-skyline:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics-skyline.svg
-          config_display: large
-          token: NOT_NEEDED
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_year: 2024
-          plugin_skyline_frames: 120
-          plugin_skyline_quality: 1
-          plugin_skyline_settings: |
-            {
-              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
-              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
-              "wait": 4,
-              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
-            }
