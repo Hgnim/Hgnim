@@ -14,8 +14,8 @@
 <a href="https://github.com/Hgnim/FiveInARowWeb">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=FiveInARowWeb&theme=algolia" />
 </a>
-<a href="https://github.com/Hgnim/FileMoveTool">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
+<a href="https://github.com/Hgnim/EasyUpdateFromGithub">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=EasyUpdateFromGithub&theme=algolia" />
 </a>
  <p/>
    
