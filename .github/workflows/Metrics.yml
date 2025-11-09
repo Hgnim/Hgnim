@@ -1,8 +1,7 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 16 * * *"}]
+  schedule: [{cron: "0 0 */3 * *"}] #每三天更新一次
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -15,63 +14,34 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-main.svg
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - repo
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
           # Options
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_display: large
           config_timezone: Asia/Shanghai
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 900
-          plugin_habits_trim: yes
-          plugin_habits_languages_limit: 0
-          plugin_habits_languages_threshold: 0%
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
           plugin_lines: yes
-          plugin_lines_history_limit: 1
+          plugin_lines_history_limit: 3
           plugin_lines_repositories_limit: 8
           plugin_lines_delay: 1
           plugin_lines_sections: base, history, repositories
-          plugin_reactions: yes
-          plugin_reactions_display: absolute
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_discussions: 100
-          plugin_reactions_limit_discussions_comments: 100
-          plugin_reactions_limit_issues: 100
-          plugin_repositories: yes
-          plugin_repositories_pinned: 2
-          plugin_repositories_order: featured, pinned, starred, random
-          plugin_gists: yes
-          plugin_licenses: yes
-          plugin_licenses_ratio: yes
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: graph
-          plugin_stargazers_days: 365
-          plugin_topics: yes
-          plugin_topics_limit: 140
-          plugin_topics_mode: icons
-          plugin_topics_sort: activity
-          plugin_traffic: yes
-          plugin_contributors: yes
-          plugin_contributors_contributions: yes
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers, sponsors, followers
-          plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
+
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, editors-graphs, os, os-graphs
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 365
+          plugin_wakatime_repositories_visibility: public
+
+          plugin_languages: yes
+          plugin_languages_limit: 0
+          plugin_languages_indepth: true
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_recent_days: 365
+          plugin_languages_details: percentage,bytes-size,lines
+          plugin_languages_ignored: css

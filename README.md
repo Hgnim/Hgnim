@@ -1,25 +1,3 @@
-<p align="center">
-<a href="https://github.com/Hgnim/TimedPower">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=TimedPower&theme=algolia"/>
-</a>
-<a href="https://github.com/Hgnim/Undertale_Life">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=Undertale_Life&theme=algolia"/>
-</a>
-<a href="https://github.com/Hgnim/MinecraftServerPlayerDataManager">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=MinecraftServerPlayerDataManager&theme=algolia"/>
-</a>
-<a href="https://github.com/Hgnim/KeyInputMacro">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
-</a>
-<a href="https://github.com/Hgnim/FiveInARowWeb">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=FiveInARowWeb&theme=algolia" />
-</a>
-<a href="https://github.com/Hgnim/FileMoveTool">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hgnim&repo=KeyInputMacro&theme=algolia" />
-</a>
- <p/>
-   
-#
 <picture>
   <img src="/github-metrics-main.svg" alt="Metrics-main"/>
 </picture>
@@ -30,9 +8,9 @@
     <p/>
     
 <p align="center">
-  <a href="#">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hgnim&locale=cn&layout=pie&theme=transparent&hide_border=true&langs_count=10"/>
-<a/>
+  <!--<a href="#">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hgnim&locale=cn&layout=pie&theme=transparent&hide_border=true&langs_count=20"/>
+<a/>-->
 <a href="#">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=Hgnim&locale=cn&theme=transparent&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github"/>
 <a/>
@@ -73,4 +51,3 @@
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=Hgnim&label=+++++++++访问次数+"/>
 <p/>
-<!--![Visitor Count](https://profile-counter.glitch.me/Hgnim/count.svg)-->
