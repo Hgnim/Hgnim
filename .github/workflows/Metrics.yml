@@ -3,8 +3,12 @@ name: Metrics
 on:
   schedule: [{cron: "0 0 */3 * *"}] #每三天更新一次
   # Lines below let you run workflow manually and on each commit
-  workflow_dispatch:
-  push: {branches: ["main"]}
+  workflow_dispatch:  # 手动触发
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/Metrics.yml'  #配置改动时执行
 jobs:
   github-metrics-main:
     runs-on: ubuntu-latest
