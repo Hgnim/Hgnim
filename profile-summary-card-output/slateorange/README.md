@@ -32,3 +32,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/Hgnim/Hgnim/main/profile-summary-card-output/slateorange/4-productive-time.svg)
+```
+
+    
